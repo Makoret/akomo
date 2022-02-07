@@ -15,7 +15,9 @@ export default function Map_view() {
             <div className="realm_name">{realm_name}</div>
             <div className="r_population">{population}</div>
         </div>
-        <div className="center_view"></div>
+        <div className="center_view">
+            Map view
+        </div>
         <div className="bottom_banner">
             <div className="r_administrative">A</div>
             <div className="r_diplomatic">D</div>

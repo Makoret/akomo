@@ -25,8 +25,17 @@
 }
 
 .main_view .center_view {
+  font-size: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   height: 80%;
-  background-color: gray;
 }
 
 .main_view .bottom_banner {
@@ -35,7 +44,6 @@
   display: flex;
   font-size: 4rem;
   height: 10%;
-  background-color: red;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -43,4 +51,4 @@
       -ms-flex-align: center;
           align-items: center;
 }
-/*# sourceMappingURL=Map_views.css.map */
+/*# sourceMappingURL=Map_view.css.map */

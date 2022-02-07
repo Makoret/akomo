@@ -18,15 +18,17 @@
     }
 
     .center_view {
+        font-size: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
         height: 80%;
-        background-color: gray;
     }
 
     .bottom_banner {
         display: flex;
         font-size: 4rem;
         height: 10%;
-        background-color: red;
         justify-content: space-evenly;
         align-items: center;
     }
