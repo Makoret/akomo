@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'necromancer';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Necromancer-lgP8Z.ttf");
+}
+
+:root {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-color: aqua;
+}
+
+:root .intro {
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  min-width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px auto;
+  font-family: necromancer;
+}
+
+:root .intro .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20%;
+  font-size: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+:root .intro .menu {
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+/*# sourceMappingURL=Menu.css.map */

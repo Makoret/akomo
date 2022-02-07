@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'necromancer';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./Necromancer-lgP8Z.ttf');
+}
+
+:root {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: aqua;
+
+    .intro {
+        text-align: center;
+        height: 100%;
+        width: 50%;
+        min-width: 400px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+        font-family: necromancer;
+
+        .title {
+            display: flex;
+            height: 20%;
+            font-size: 2rem;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .menu {
+            height: 40%;
+            display: flex;
+            font-size: 2rem;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+    }
+}
