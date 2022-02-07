@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Map_views.css'
+import '../css/Map_view.css'
 
 const realm_name = "My realm"
 let currentDate = new Date();

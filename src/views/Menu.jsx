@@ -12,7 +12,7 @@ export default function Menu() {
                 <div className="menu_loadGame">load game</div>
                 <div className="menu_options">options</div>
                 <div className="menu_credits">credits</div>
-                <span className='version'>i.0.0</span>
+                <span className='version'>i.i.i</span>
             </div>
         </div>
     )
