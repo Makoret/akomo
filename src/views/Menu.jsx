@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/Menu.css';
 
-export default function menu() {
+export default function Menu() {
     return (
         <div className="intro">
             <div className="title">
@@ -12,7 +12,7 @@ export default function menu() {
                 <div className="menu_loadGame">load game</div>
                 <div className="menu_options">options</div>
                 <div className="menu_credits">credits</div>
-                <span className='version'>1.0.0</span>
+                <span className='version'>i.0.0</span>
             </div>
         </div>
     )
