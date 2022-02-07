@@ -1,14 +1,14 @@
 advisors
     diplomatic
-        events
-        relations
-        laws
+        events          
+        relations       
+        laws            
     military
         manpower
         army
-    administratice
-        taxes
-        production
-        army maintenance
-        imports
-        exports
+    administrative
+        taxes               x
+        production          x
+        army maintenance    x
+        imports             x
+        exports             x

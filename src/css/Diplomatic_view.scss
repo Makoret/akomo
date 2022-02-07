@@ -5,28 +5,23 @@
     src: url('./Necromancer-lgP8Z.ttf');
 }
 
-.admin_view {
+.diplo_view {
     font-family: 'necromancer';
     font-size: 2rem;
     height: 100%;
     flex-direction: row;
 
     .tabs {
+        display: flex;
         height: 10%;
-        display: grid;
-        grid-template-columns: auto auto auto;
+        justify-content: space-around;
         align-items: center;
-        justify-items: center;
 
-        .taxes {}
+        .next_events {}
 
-        .production {}
+        .relations {}
 
-        .army_maintenance {}
-
-        .imports {}
-
-        .exports {}
+        .laws {}
     }
 
     .work_area {

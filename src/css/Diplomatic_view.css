@@ -5,7 +5,7 @@
   src: url("./Necromancer-lgP8Z.ttf");
 }
 
-.admin_view {
+.diplo_view {
   font-family: 'necromancer';
   font-size: 2rem;
   height: 100%;
@@ -15,19 +15,19 @@
           flex-direction: row;
 }
 
-.admin_view .tabs {
+.diplo_view .tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 10%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  justify-items: center;
 }
 
-.admin_view .work_area {
+.diplo_view .work_area {
   height: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,4 +40,4 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
-/*# sourceMappingURL=Administrative_view.css.map */
+/*# sourceMappingURL=Diplomatic_view.css.map */
