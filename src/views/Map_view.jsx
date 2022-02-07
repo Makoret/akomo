@@ -1,5 +1,9 @@
 import React from 'react';
 import '../css/Map_view.css'
+import { Link } from "react-router-dom";
+import Administrative_view from './Administrative_view.jsx';
+import Diplomatic_view from './Diplomatic_view.jsx';
+import Military_view from './Military_view.jsx';
 
 const realm_name = "My realm"
 let currentDate = new Date();
@@ -19,9 +23,9 @@ export default function Map_view() {
             Map view
         </div>
         <div className="bottom_banner">
-            <div className="r_administrative">A</div>
-            <div className="r_diplomatic">D</div>
-            <div className="r_military">M</div>
+            <Link className="r_administrative" to='/administration' >A</Link>
+            <Link className="r_diplomatic" to="/diplomacy" >D</Link>
+            <Link className="r_military" to="/military">M</Link>
         </div>
     </div>);
 }

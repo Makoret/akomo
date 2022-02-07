@@ -1,11 +1,13 @@
 advisors
     diplomatic
-        events          
-        relations       
-        laws            
+        events              x
+        relations           x
+        laws                x
     military
-        manpower
-        army
+        manpower            x
+        army                x
+        defence             x
+        offense             x
     administrative
         taxes               x
         production          x

@@ -5,7 +5,7 @@
     src: url('./Necromancer-lgP8Z.ttf');
 }
 
-.admin_view {
+.mil_view {
     font-family: 'necromancer';
     font-size: 2rem;
     height: 100%;
@@ -18,15 +18,13 @@
         align-items: center;
         justify-items: center;
 
-        .taxes {}
+        .manpower {}
 
-        .production {}
+        .army {}
 
-        .army_maintenance {}
+        .defence {}
 
-        .imports {}
-
-        .exports {}
+        .offense {}
 
         .dummy {}
     }
